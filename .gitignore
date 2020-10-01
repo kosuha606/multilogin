@@ -1,0 +1,5 @@
+/vendor/
+/.idea/
+config/providers.php
+config/users.php
+storage/*

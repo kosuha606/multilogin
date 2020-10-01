@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Для большей информации обратитесь к документации
+ * https://hybridauth.github.io/introduction.html
+ */
+
+return [
+    'callback' => 'https://example.com/path/to/this/script.php',
+    //Providers specifics
+    'providers' => [
+        'Twitter' => [
+            'enabled' => true,     //Optional: indicates whether to enable or disable Twitter adapter. Defaults to false
+            'keys' => [
+                'key'    => '...', //Required: your Twitter consumer key
+                'secret' => '...'  //Required: your Twitter consumer secret
+            ]
+        ],
+        'Google'   => ['enabled' => true, 'keys' => [ 'id'  => '...', 'secret' => '...']], //To populate in a similar way to Twitter
+        'Facebook' => ['enabled' => true, 'keys' => [ 'id'  => '...', 'secret' => '...']]  //And so on
+    ]
+];

@@ -1,0 +1,12 @@
+{
+    "name": "vagrant/multilogin",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./src/"
+        }
+    },
+    "require": {
+        "hybridauth/hybridauth": "^3.4",
+        "ext-json": "*"
+    }
+}
