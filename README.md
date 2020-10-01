@@ -9,7 +9,7 @@ MULTILOGIN
 https://hybridauth.github.io/introduction.html
 
 
-Этот файл необходим для учетоа пользователей, которые могут использовать сервис
+Этот файл необходим для учета пользователей, которые могут использовать сервис
 https://github.com/kosuha606/multilogin/blob/master/config/users.php.dist
 
 Этот класс клиента
@@ -20,9 +20,9 @@ https://github.com/kosuha606/multilogin/blob/master/src/client/Login.php
 - password
 - user
 
-И импользовать API класса для работы с сервисом авторизации.
+И иcпользовать API класса для работы с сервисом авторизации.
 
-Со стороны клинетской части можно исользовать этот скрипт.
+Со стороны клинетской части можно использовать этот скрипт.
 https://github.com/kosuha606/multilogin/blob/master/public/js/multilogin.js
 
 Пример работы можно найти здесь:
