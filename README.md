@@ -1,7 +1,7 @@
 MULTILOGIN
 ---
 
-Приложение для авторизации через соцсети.
+Сервис для авторизации через соцсети.
 
 Этот файл https://github.com/kosuha606/multilogin/blob/master/config/providers.php.dist
 нужно переименовать в providers.php
