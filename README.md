@@ -10,12 +10,12 @@ https://hybridauth.github.io/introduction.html
 
 
 Этот файл необходим для учета пользователей, которые могут использовать сервис
-https://github.com/kosuha606/multilogin/blob/master/config/users.php.dist
+https://github.com/kosuha606/multilogin/blob/master/config/users.php.dist,
+тоже переименовываем, удаляя .dist.
 
 Этот класс клиента
 https://github.com/kosuha606/multilogin/blob/master/src/client/Login.php
-
-Можно скопировать в код приложения, подставить параметры
+Можно скопировать в код приложения, изменив параметры
 - baseUrl
 - password
 - user
